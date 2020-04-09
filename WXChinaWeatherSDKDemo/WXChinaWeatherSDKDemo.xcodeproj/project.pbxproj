@@ -14,6 +14,8 @@
 		F747F0A7243EB816005A6581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F747F0A6243EB816005A6581 /* Assets.xcassets */; };
 		F747F0AA243EB816005A6581 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F747F0A8243EB816005A6581 /* LaunchScreen.storyboard */; };
 		F747F0AD243EB816005A6581 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F747F0AC243EB816005A6581 /* main.m */; };
+		F747F0B5243EBE28005A6581 /* Plugin_SDK_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F747F0B4243EBE28005A6581 /* Plugin_SDK_iOS.framework */; };
+		F747F0B7243EBE42005A6581 /* WXChinaWeatherSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F747F0B6243EBE41005A6581 /* WXChinaWeatherSDK.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		F747F0A9243EB816005A6581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F747F0AB243EB816005A6581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F747F0AC243EB816005A6581 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F747F0B4243EBE28005A6581 /* Plugin_SDK_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Plugin_SDK_iOS.framework; sourceTree = "<group>"; };
+		F747F0B6243EBE41005A6581 /* WXChinaWeatherSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = WXChinaWeatherSDK.podspec; path = ../WXChinaWeatherSDK.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F747F0B5243EBE28005A6581 /* Plugin_SDK_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +50,8 @@
 		F747F08E243EB815005A6581 = {
 			isa = PBXGroup;
 			children = (
+				F747F0B6243EBE41005A6581 /* WXChinaWeatherSDK.podspec */,
+				F747F0B3243EBE15005A6581 /* WXChinaWeatherSDK */,
 				F747F099243EB815005A6581 /* WXChinaWeatherSDKDemo */,
 				F747F098243EB815005A6581 /* Products */,
 			);
@@ -74,6 +81,15 @@
 				F747F0AC243EB816005A6581 /* main.m */,
 			);
 			path = WXChinaWeatherSDKDemo;
+			sourceTree = "<group>";
+		};
+		F747F0B3243EBE15005A6581 /* WXChinaWeatherSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F747F0B4243EBE28005A6581 /* Plugin_SDK_iOS.framework */,
+			);
+			name = WXChinaWeatherSDK;
+			path = ../WXChinaWeatherSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F747F0AA243EB816005A6581 /* LaunchScreen.storyboard in Resources */,
+				F747F0B7243EBE42005A6581 /* WXChinaWeatherSDK.podspec in Resources */,
 				F747F0A7243EB816005A6581 /* Assets.xcassets in Resources */,
 				F747F0A5243EB815005A6581 /* Main.storyboard in Resources */,
 			);
