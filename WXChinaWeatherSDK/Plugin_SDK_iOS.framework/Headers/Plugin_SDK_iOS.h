@@ -2,8 +2,8 @@
 //  Plugin_SDK_iOS.h
 //  Plugin_SDK_iOS
 //
-//  Created by he on 2018/11/22.
-//  Copyright © 2018 HeFengTianQi. All rights reserved.
+//  Created by he on 2019/5/13.
+//  Copyright © 2019 SynopticNetworkTianQi. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -14,15 +14,15 @@ FOUNDATION_EXPORT double Plugin_SDK_iOSVersionNumber;
 //! Project version string for Plugin_SDK_iOS.
 FOUNDATION_EXPORT const unsigned char Plugin_SDK_iOSVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <Plugin_SDK_iOS/PublicHeader.h>
-/* 当前版本 2018-11-22 2.0.0 */
+
+/* 当前版本 2020-07-20 2.0 */
 
 /*
  1.请将frameWork加入项目中，导入头文件#import <Plugin_SDK_iOS/Plugin_SDK_iOS.h>
  */
 
 /*
- 2.本项目依赖于 'SDWebImage' 请确保您的项目中已经安装此库
+ 2.本项目依赖于 'SDWebImage' 'Masonry'请确保您的项目中已经安装这两个类库
  */
 
 /*
@@ -30,7 +30,10 @@ FOUNDATION_EXPORT const unsigned char Plugin_SDK_iOSVersionString[];
  */
 
 /*
- 4.请在info.plist文件添加一个Allow Arbitrary Loads元素，同时设为 YES
+ 4.请在info.plist文件添加NSAppTransportSecurity ->Allow Arbitrary Loads元素，同时设为 YES
  */
-#import <Plugin_SDK_iOS/SynopticNetworkCustomView.h>
+#import <Plugin_SDK_iOS/SynopticNetworkPluginView.h>
+
+#import "Plugin_SDK_iOS/SynopticNetworkConfigModel.h"
+
 

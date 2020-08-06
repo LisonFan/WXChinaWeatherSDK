@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   
   spec.name = "WXChinaWeatherSDK"
-  spec.version = "0.0.2"
+  spec.version = "0.0.3"
   spec.summary = "中国天气网 SDK"
 
   spec.homepage = "https://github.com/LisonFan/WXChinaWeatherSDK"
